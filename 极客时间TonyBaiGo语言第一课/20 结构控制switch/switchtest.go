@@ -3,7 +3,12 @@ package main
 import (
 	"fmt"
 )
+/*
+switch 的执行顺序
+自上而下
+自左向右
 
+*/
 func case1() int {
 	fmt.Println("eval case1 expr")
 	return 1

@@ -11,7 +11,9 @@ import "fmt"
 */
 
 type Pet interface {
-	//SetName(name string)
+
+	// SetName(name string)
+
 	Name() string
 	Category() string
 }

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	_ "math" // imported and not used: "math"
-	"rectangle"
+	//"rectangle"
 )
 
 /*
@@ -37,6 +37,6 @@ func init(){
 }
 func main(){
 	fmt.Printf("Geometrical shape properties")
-	fmt.Printf("area of rectangle %.2f\n", rectangle.Area(rectLen, rectWidth))
-	fmt.Printf("diagonal of rectangle %.2f ",rectangle.Diagonal(rectLen,rectWidth))
+	//fmt.Printf("area of rectangle %.2f\n", rectangle.Area(rectLen, rectWidth))
+	//fmt.Printf("diagonal of rectangle %.2f ",rectangle.Diagonal(rectLen,rectWidth))
 }
